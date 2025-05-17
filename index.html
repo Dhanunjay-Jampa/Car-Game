@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Car Game with Score</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-area" id="game-area">
+  <div class="hud">
+    <div>Score: <span id="score">0</span></div>
+    <div>High Score: <span id="high-score">0</span></div>
+    <div>Lives: <span id="lives">3</span></div>
+  </div>
+  <img src="car.png" class="car" id="car" alt="car">
+  <div class="obstacle" id="obstacle"></div>
+</div>
+
+<!-- Mobile controls -->
+<div class="mobile-controls">
+  <button onclick="moveLeft()">⟵</button>
+  <button onclick="moveRight()">⟶</button>
+</div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
